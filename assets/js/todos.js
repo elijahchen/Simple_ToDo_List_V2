@@ -2,12 +2,14 @@
  * Created by Elijah on 2/27/2017.
  */
 //Check off specific todos by clicking
-$("li").click(function () {
+$("ul").on("click", "li", function () {
+    //Selecting the li within the ul makes new todos retroactive
     $(this).toggleClass("completed");
 });
 
 //Click on X to delete todos
-$("span").click(function (event) {
+$("ul").on("click", "span", function (event) {
+    //Selecting the li within the ul makes new todos retroactive
     $(this).parent().fadeOut(500, function () {
         $(this).remove();
     });
