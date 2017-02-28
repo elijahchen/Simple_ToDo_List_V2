@@ -22,3 +22,8 @@ I will be using a few things that I've been experimenting with from my other rep
   - transitions
   - gradients
   - box-shadow
+
+NOTE TO SELF:
+click() and on("click")
+  - click() only adds listeners for existing elements
+  - on() will add listeners for potential future elements
