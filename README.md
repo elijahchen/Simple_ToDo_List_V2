@@ -3,7 +3,7 @@ Version 2 of the original Simple_ToDo_List.
 
 This is a major step up from the first version of the Simple_ToDo_List web application. 
 
-I will be using a few things that I've been experimenting with on my other repositories.<br>
+I will be using a few things that I've been experimenting with from my other repositories.<br>
 
 - jQuery
   - .on()
