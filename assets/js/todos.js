@@ -22,6 +22,6 @@ $("input[type='text']").keypress(function (event) {
         var todoText = $(this).val();
         $(this).val(""); //Sets new value of an empty string
         //Create new li and add to parent ul
-        $("ul").append("<li><span>O</span> " + todoText + "</li>");
+        $("ul").append("<li><span><i class='fa fa-trash'></i></span> " + todoText + "</li>");
     }
 });
